@@ -72,7 +72,7 @@ slurpt-discord-bot
 ### 1. Clone repository
 
 ```
-git clone https://github.com/yourusername/slurpt-discord-bot
+git clone https://github.com/EsH-4/slurpt-discord-bot
 ```
 
 ### 2. Install dependencies
@@ -122,13 +122,6 @@ View logs
 ```
 pm2 logs slurpt
 ```
-
----
-
-# 🔐 Security
-
-Never upload your `.env` file to GitHub.
-Add `.env` to `.gitignore` to keep your bot token safe.
 
 ---
 
