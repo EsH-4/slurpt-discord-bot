@@ -1,0 +1,22 @@
+{
+  "name": "slurpt",
+  "version": "1.0.0",
+  "description": "Discord bot slash commands",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js",
+    "bot:start": "pm2 start index.js --name index",
+    "bot:restart": "pm2 restart index",
+    "bot:stop": "pm2 stop index",
+    "bot:logs": "pm2 logs index"
+  },
+  "_moduleAliases": {
+    "@commands": "commands"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5",
+    "module-alias": "^2.2.3"
+  }
+}
