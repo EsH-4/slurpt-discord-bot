@@ -40,6 +40,8 @@ It provides moderation tools, slash commands, verification systems, and utility 
 | `/timeout`    | Temporarily mutes a member       |
 | `/sendrules`  | Sends verification rules message |
 
+<img src="assets/Screenshot 2026-03-15 155455.png" width="300">
+
 ---
 
 # 🧰 Tech Stack
