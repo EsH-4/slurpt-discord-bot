@@ -54,3 +54,80 @@ It provides moderation tools, slash commands, verification systems, and utility 
 ---
 
 
+# 📁 Project Structure
+
+```
+slurpt-discord-bot
+│
+├ commands/            # Slash command files
+├ utils/               # Utility helpers
+├ deploy-commands.js   # Slash command deploy script
+├ index.js             # Main bot entry
+├ package.json
+├ .env                 # Environment variables (DO NOT upload)
+└ README.md
+```
+
+---
+
+# ⚙️ Installation
+
+### 1. Clone repository
+
+```
+git clone https://github.com/EsH-4/slurpt-discord-bot
+```
+
+### 2. Install dependencies
+
+```
+npm install
+```
+
+### 3. Setup `.env`
+
+```
+DISCORD_TOKEN=your_bot_token
+CLIENT_ID=your_client_id
+GUILD_ID=your_server_id
+```
+
+### 4. Deploy slash commands
+
+```
+npm run deploy
+```
+
+### 5. Start the bot
+
+```
+node index.js
+```
+
+---
+
+# 🚀 Running with PM2
+
+Start bot
+
+```
+pm2 start index.js --name slurpt
+```
+
+Restart bot
+
+```
+pm2 restart slurpt
+```
+
+View logs
+
+```
+pm2 logs slurpt
+```
+
+---
+
+# 📜 License
+
+This project is open-source and available for educational and personal use.
